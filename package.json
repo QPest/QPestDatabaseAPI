@@ -1,0 +1,25 @@
+{
+  "name": "qpestdb",
+  "version": "1.0.0",
+  "description": "QPest Backend API",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/qpest.git"
+  },
+  "keywords": [
+    "QPest"
+  ],
+  "author": "Danilo Barros",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "express": "~4.12.2",
+    "mysql": "~2.5.5",
+    "ejs": "*",
+    "body-parser": "~1.12.0",
+    "MD5": "~1.2.1"
+  }
+}
